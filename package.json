@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "cypress run --spec 'cypress/specs/**/*' --headless --browser=chrome",
+    "cy": "npx cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^12.15.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
